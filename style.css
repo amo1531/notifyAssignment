@@ -1,0 +1,310 @@
+
+body{
+    font: Ubuntu Medium;
+    width: 100%;
+}
+.wrapper{
+    width: auto;
+}
+.imagewrap{
+    display: block;
+    position:relative;
+    border-top: 10px solid #00cc00;
+}
+.imagewrap img{
+    width: 100%;
+    margin-bottom: 5px;
+}
+.heading{
+    font-size: 65px;
+    color: #ffffff;
+    top: 90px;
+    left: 394px;
+    position: absolute;
+}
+.heading_content{
+    position: absolute;
+    font-size: 25px;
+    color:#ffffff;
+    top: 140px;
+    left: 400px;
+    word-wrap: break-word;
+    width: 450px;
+}
+.midsection{
+    width: 100%;
+}
+.midcommon{
+    display: inline-block;
+    width: 33%;
+    margin: 12spx;
+}
+.midcommon img{
+    margin: 0 auto;
+    display: block;
+
+}
+.midcommon label{
+    font-size: 25px;
+    color: #000;
+    margin-left: 125px;
+    font-style: Ubuntu Medium;
+}
+.audience_section label{
+    margin-left: 110px;
+}
+.midsection_wrapper{
+    padding :40px;
+}
+.midcommon p{
+    font-size: 20px;
+    color: #696969;
+    font-style: Ubuntu Medium;
+    word-wrap: break-word;
+    text-align: left;
+    margin-left: 35px;
+}
+.design_section{
+    margin-top: 0;
+}
+.notification_section{
+    width: 100%;
+    background-color: #E3E3E3;
+}
+.notification_wrapper{
+    padding-top: 75px;
+    padding-bottom: 60px;
+    width: 100%;
+    height: 300px;
+}
+
+.common{
+    width: 45%;
+    float: left;
+}
+.notification_content{
+    top: 153px;
+}
+.notification_content label{
+    color: #000;
+    font-size: 25px;
+    font-style: Ubuntu Medium;
+    margin-left: 80px;
+}
+.notification_content p{
+     font-size: 20px;
+     color: #808080;
+     font-style: Ubuntu Medium;
+     word-wrap: break-word;
+     width: 450px;
+     margin-left: 80px;
+}
+.emailid{
+    margin-left: 80px;
+    height: 40px;
+    width: 300px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px 0 0 20px;
+}
+.notify_button{
+    margin-left: 0;
+    height: 65px;
+    width: 100px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 0 20px 20px 0;
+    background-color: #2DCC70;
+}
+.videocontainer{
+    float:right;
+    height:300px;
+    width:500px;
+    border-radius: 5px;
+}
+.lower_content p,.mediacontent p{
+     font-size: 22px;
+     color: #808080;
+     font-style: Ubuntu Medium;
+     word-wrap: break-word;
+     text-align: center;
+}
+.mediacontent label{
+    color: #000;
+    font-size: 25px;
+    font-style: Ubuntu Medium;
+    margin-left: 567px;
+}
+.logo{
+    height: 28px;
+    width: 28px;
+    display:inline-block;
+    border-radius: 50%;
+    margin:8px;
+}
+.medialinks{
+    padding-left: 80px;
+}
+.facebook{
+    margin-left: 539px;
+    background-image: url('/home/akshay/Html5 Assignment/Images/mediaicons.jpg');
+    background-position: -313px 265px;
+}
+
+.facebook:hover{
+    background-image: url('/home/akshay/Html5 Assignment/Images/mediaicons.jpg');
+    background-position: -28px 265px;
+
+}
+
+.twitter{
+    background-image: url('/home/akshay/Html5 Assignment/Images/mediaicons.jpg');
+    background-position: -353px 265px;
+}
+.in{
+    background-image: url('/home/akshay/Html5 Assignment/Images/mediaicons.jpg');
+    background-position: 178px 183px;
+}
+.youtube{
+    background-image: url('/home/akshay/Html5 Assignment/Images/mediaicons.jpg');
+    background-position: -434px 263px;
+}
+.git{
+     background-image: url('/home/akshay/Html5 Assignment/Images/mediaicons.jpg');
+     background-position: -515px 64px;
+}
+.twitter:hover{
+    background-image: url('/home/akshay/Html5 Assignment/Images/mediaicons.jpg');
+    background-position: -67px 265px;
+}
+.google-plus{
+    background-image: url('/home/akshay/Html5 Assignment/Images/mediaicons.jpg');
+    background-position: -393px 265px;
+    
+}
+.google-plus:hover{
+    background-image: url('/home/akshay/Html5 Assignment/Images/mediaicons.jpg');
+    background-position: -108px 265px;
+    
+}
+.rss{
+    background-image: url('/home/akshay/Html5 Assignment/Images/mediaicons.jpg');
+    background-position: -393px 65px;
+}
+.rss:hover{
+    background-image: url('/home/akshay/Html5 Assignment/Images/mediaicons.jpg');
+    background-position: -108px 65px;
+}
+.in:hover{
+    background-image: url('/home/akshay/Html5 Assignment/Images/mediaicons.jpg');
+    background-position: -110px 184px;
+}
+.youtube:hover{
+    background-image: url('/home/akshay/Html5 Assignment/Images/mediaicons.jpg');
+    background-position: -150px 263px;
+}
+.git:hover{
+    background-image: url('/home/akshay/Html5 Assignment/Images/mediaicons.jpg');
+    background-position: -229px 64px;
+
+}
+.corousal_inner{
+    width: 100%;
+}
+.corousal_container{
+    position: relative;
+    max-width: 100%;
+    display: inline-block;
+    /*margin: 45px;*/
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.corousal_inner{
+    overflow: hidden;
+    width: 100%;
+    margin-top: 60px;
+}
+.corousal_inner_ul{
+    position: relative;
+    list-style-type: none;
+    text-align: center;
+    display: inline;
+}
+.corousal_inner_li{
+    width: 200px;
+    display: inline-block;
+}
+.corousal_inner_li img{
+    width: 100%;
+    cursor: pointer;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.contact_links{
+    background-color: #E3E3E3;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.contact_links a{
+    text-decoration: none;
+    font-style: Ubuntu Medium;
+    font-size: 20px;
+    float: left;
+    display: block;
+    width: 100px;
+    color: #808080;
+}
+.contact_links a:hover{
+    color: orange;
+}
+ .contact{
+     margin-left: 450px;
+ }
+ .lowest_section{
+     height: auto;
+     background-color: #1C1F26;
+     padding-top: 40px;
+     padding-bottom: 50px;
+
+ }
+ .lowest_section label{
+     color: #ffffff;
+     font-style: Ubuntu Medium;
+     font-size: 25px;
+     margin-left: 500px;
+ }
+/*@media only screen and (min-width: 320px) and (max-width: 680px) 
+ {
+     .midcommon{
+         display: block;
+         width: 100%;
+     }
+     .midcommon label{
+         margin-left: 100px;
+         font-size: 24px;
+     }
+     .audience_section{
+         margin-left: 0;
+     }
+     .lower_content p{
+         width: 300px;
+     }
+     .mediacontent p{
+         width: 300px;
+
+     }
+     .mediacontent label{
+         margin-left: 0;
+     }
+     .facebook{
+         margin-left: 0;
+     }
+     .notification_wrapper{
+         position: relative;
+     }
+     .common{
+         display: block;
+         position: absolute;
+     }
+ }*/
