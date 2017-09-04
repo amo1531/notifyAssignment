@@ -1,0 +1,22 @@
+*{
+    font: 16px/1.2 Ubuntu medium;
+}
+h1{
+    font-size: 24px;
+}
+h2{
+    font-size: 22px;
+}
+h3{
+    font-size: 20px;
+}
+h4{
+    font-size: 18px;
+}
+ul li{
+    list-style: none;
+}
+div{
+    box-sizing: border-box;
+    padding: 20px;
+}

@@ -1,0 +1,11 @@
+body,img,h1,h2,h3,h4,p,span,ul,li,input,button,header{
+    margin: 0px;
+    padding: 0px;
+}
+h1,h2,h3,h4{
+   font-style: none;
+}
+input{
+   border-radius:0;
+}
+

@@ -1,0 +1,11 @@
+header{
+    padding: 10px 0 0 0;
+    background: #008000;
+}
+.WB_backgroundImage{
+    background: url("./Images/headingwallpaper.jpg") 0px 0px / cover;
+    padding: 0;
+}
+.WB_container{
+    padding: 20px 50px;
+}
